@@ -1,0 +1,3 @@
+## periodicity datafile for bem3_aw_qd2
+# periodicity_setting d1_x d1_y d2_x d2_y
+1 0.015 0.0 0.0 0.015

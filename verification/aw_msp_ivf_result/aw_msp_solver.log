@@ -1,0 +1,295 @@
+./aw_msp_solver veri.dat
+
+ "mpw.txt" No.00 -- planewave --
+medium density                   [kg/m^3] :            1000
+speed of sound in the medium        [m/s] :            1500
+frequency                            [Hz] :          100000
+sound pressure amplitude             [Pa] :     10+      0I
+x-component of translation vector     [m] :               0
+y-component of translation vector     [m] :               0
+z-component of translation vector     [m] :               0
+rotation parameter theta            [rad] :             0.3
+rotation parameter psi              [rad] :           1e-08
+-- additional information --
+wavelength                            [m] :           0.015
+absolute value of sound intensity [W/m^2] : 3.3333333333333e-05
+x-component of sound intensity    [W/m^2] : 9.850673555378e-06
+y-component of sound intensity    [W/m^2] : 9.850673555378e-14
+z-component of sound intensity    [W/m^2] : 3.184454963752e-05
+
+---- sphere data ( msphr.txt ) ----
+number of spheres                             :               25
+  Sphere ID 0
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :                0
+y-coordinate of sphere center                 :                0
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 1
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             0.05
+y-coordinate of sphere center                 :                0
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 2
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :              0.1
+y-coordinate of sphere center                 :                0
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 3
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :            -0.05
+y-coordinate of sphere center                 :                0
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 4
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             -0.1
+y-coordinate of sphere center                 :                0
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 5
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :                0
+y-coordinate of sphere center                 :             0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 6
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             0.05
+y-coordinate of sphere center                 :             0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 7
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :              0.1
+y-coordinate of sphere center                 :             0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 8
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :            -0.05
+y-coordinate of sphere center                 :             0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 9
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             -0.1
+y-coordinate of sphere center                 :             0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 10
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :                0
+y-coordinate of sphere center                 :              0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 11
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             0.05
+y-coordinate of sphere center                 :              0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 12
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :              0.1
+y-coordinate of sphere center                 :              0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 13
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :            -0.05
+y-coordinate of sphere center                 :              0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 14
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             -0.1
+y-coordinate of sphere center                 :              0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 15
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :                0
+y-coordinate of sphere center                 :            -0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 16
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             0.05
+y-coordinate of sphere center                 :            -0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 17
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :              0.1
+y-coordinate of sphere center                 :            -0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 18
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :            -0.05
+y-coordinate of sphere center                 :            -0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 19
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             -0.1
+y-coordinate of sphere center                 :            -0.05
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 20
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :                0
+y-coordinate of sphere center                 :             -0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 21
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             0.05
+y-coordinate of sphere center                 :             -0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 22
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :              0.1
+y-coordinate of sphere center                 :             -0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 23
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :            -0.05
+y-coordinate of sphere center                 :             -0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+  Sphere ID 24
+medium density                       [kg/m^3] :              970
+speed of sound in the medium            [m/s] :             1004
+radius of sphere                              :            0.005
+x-coordinate of sphere center                 :             -0.1
+y-coordinate of sphere center                 :             -0.1
+z-coordinate of sphere center                 :                0
+basic sampling number on sphere surface       :               64
+division number for sphere surface    (per PI):                2
+limit of order number l                       :               40
+
+iterative operation start (convergence criterion : cv < 1e-12)
+  0, cv : 0.156941	0.14956	0.139818	0.0845551	0.00871424	0.129253	0.120384	0.118868	0.0702491	0.0252231	0.106227	0.0842184	0.0844903	0.0640646	0.000185141	0.129253	0.120384	0.118868	0.0702491	0.0252231	0.106227	0.0842184	0.0844903	0.0640646	0.000185148	
+  1, cv : 0.00977155	0.0318141	0.0465694	0.0132172	0.0213177	0.00676433	0.0319027	0.0482148	0.00474522	0.00391457	0.0256994	0.0429619	0.0414646	0.0160255	0.0097838	0.00676433	0.0319027	0.0482148	0.00474522	0.00391457	0.0256994	0.0429619	0.0414646	0.0160255	0.00978381	
+  2, cv : 0.0103969	0.00301863	0.00593924	0.0153341	0.00899051	0.00932354	0.00160599	0.00512659	0.00741625	0.00595238	0.00164175	0.00510888	0.00815587	0.00158359	0.000982392	0.00932354	0.00160599	0.00512659	0.00741625	0.00595238	0.00164175	0.00510887	0.00815587	0.0015836	0.000982392	
+  3, cv : 0.00288696	0.000424771	0.000738998	0.00301731	0.00191973	0.00153582	0.00105448	0.000707495	0.00208284	0.00113601	0.000183753	0.000547981	0.000900935	0.000533015	1.53909e-05	0.00153582	0.00105448	0.000707495	0.00208284	0.00113601	0.000183753	0.000547981	0.000900934	0.000533016	1.53913e-05	
+  4, cv : 0.000547746	0.000187738	6.89548e-05	0.000376096	3.53869e-05	0.000225518	8.05432e-05	0.000132961	0.000129941	3.11203e-05	0.000158483	4.34723e-06	0.000257993	9.66034e-05	0.000425819	0.000225518	8.05432e-05	0.000132961	0.000129941	3.11204e-05	0.000158483	4.34721e-06	0.000257993	9.66035e-05	0.000425819	
+  5, cv : 5.12794e-06	5.86451e-05	3.9851e-05	3.33083e-05	1.72302e-06	5.22985e-05	3.40854e-05	6.74489e-05	3.055e-05	8.78275e-05	1.16346e-05	5.9753e-05	1.66243e-05	7.54726e-05	9.73293e-05	5.22985e-05	3.40854e-05	6.74489e-05	3.05501e-05	8.78275e-05	1.16347e-05	5.9753e-05	1.66243e-05	7.54727e-05	9.73293e-05	
+  6, cv : 1.30026e-05	1.00928e-05	1.39543e-05	5.44437e-07	2.31377e-06	2.11465e-06	2.38715e-06	3.25065e-05	6.71375e-06	2.44293e-06	5.06686e-06	2.08786e-05	3.42955e-05	8.0071e-06	3.03201e-05	2.11465e-06	2.38715e-06	3.25065e-05	6.71374e-06	2.44293e-06	5.06686e-06	2.08787e-05	3.42955e-05	8.00711e-06	3.03201e-05	
+  7, cv : 7.82666e-06	2.84277e-06	6.35569e-06	4.54811e-06	6.61097e-06	5.09624e-06	2.1034e-06	4.43467e-06	3.13353e-06	4.25262e-06	2.04209e-06	1.77769e-06	1.00951e-05	3.11763e-06	1.38775e-06	5.09624e-06	2.1034e-06	4.43467e-06	3.13353e-06	4.25262e-06	2.04209e-06	1.77769e-06	1.00951e-05	3.11763e-06	1.38774e-06	
+  8, cv : 1.41549e-06	2.10222e-06	3.70666e-08	3.04136e-06	2.38252e-06	2.12628e-06	2.90569e-07	1.08787e-06	1.88186e-06	2.00181e-06	1.18055e-06	1.0758e-06	5.08321e-07	2.15949e-07	1.16032e-06	2.12628e-06	2.90569e-07	1.08787e-06	1.88186e-06	2.00181e-06	1.18055e-06	1.0758e-06	5.08321e-07	2.15949e-07	1.16032e-06	
+  9, cv : 1.12675e-06	6.52529e-08	3.7873e-07	4.47452e-07	3.22919e-07	1.71723e-07	5.04718e-07	2.73841e-08	5.45648e-07	4.49081e-07	4.39883e-08	1.30687e-07	3.87582e-07	3.01566e-07	5.03217e-08	1.71722e-07	5.04718e-07	2.7384e-08	5.45648e-07	4.49081e-07	4.39884e-08	1.30687e-07	3.87582e-07	3.01566e-07	5.03218e-08	
+ 10, cv : 1.13615e-08	2.08425e-07	3.62867e-08	1.8471e-07	1.5616e-08	1.76408e-07	5.30153e-08	5.61246e-08	2.38245e-08	7.96645e-09	1.9083e-10	2.71682e-08	1.68176e-09	2.84505e-08	4.87366e-08	1.76408e-07	5.30154e-08	5.61246e-08	2.38245e-08	7.96645e-09	1.90785e-10	2.71682e-08	1.68171e-09	2.84505e-08	4.87365e-08	
+ 11, cv : 3.44161e-08	1.23226e-08	1.1254e-08	3.05175e-08	1.92259e-08	2.04992e-08	2.40148e-08	2.25945e-08	3.13284e-08	1.39569e-08	1.99722e-08	1.5808e-08	6.05946e-10	7.66267e-09	2.36658e-08	2.04992e-08	2.40148e-08	2.25945e-08	3.13284e-08	1.39569e-08	1.99723e-08	1.5808e-08	6.05949e-10	7.66267e-09	2.36658e-08	
+ 12, cv : 2.0292e-09	1.6057e-09	4.04831e-09	1.01357e-08	8.7518e-09	6.65608e-09	2.37001e-09	2.458e-09	6.20853e-09	7.62553e-09	5.25362e-09	1.43015e-09	9.17525e-09	7.03283e-09	3.36507e-09	6.65608e-09	2.37001e-09	2.458e-09	6.20852e-09	7.62553e-09	5.25362e-09	1.43015e-09	9.17526e-09	7.03283e-09	3.36507e-09	
+ 13, cv : 2.07703e-10	2.9541e-09	2.10897e-09	4.09943e-11	4.94414e-09	1.59228e-09	1.10089e-09	3.62054e-10	2.40581e-09	1.53584e-09	1.60686e-09	8.40792e-10	5.55867e-10	1.39465e-09	3.35758e-09	1.59228e-09	1.10089e-09	3.62061e-10	2.40581e-09	1.53584e-09	1.60686e-09	8.4079e-10	5.55867e-10	1.39464e-09	3.35758e-09	
+ 14, cv : 1.08206e-09	6.74483e-10	9.89699e-10	4.30441e-10	2.45859e-10	1.7978e-10	1.03433e-09	6.55993e-10	4.98222e-10	1.16597e-09	2.65504e-10	3.06384e-10	3.11735e-11	7.83294e-10	6.31221e-10	1.79783e-10	1.03433e-09	6.55999e-10	4.98223e-10	1.16597e-09	2.65505e-10	3.06382e-10	3.11728e-11	7.83296e-10	6.31219e-10	
+ 15, cv : 2.17081e-11	3.45657e-10	2.85852e-10	2.41005e-10	8.60018e-11	2.92163e-10	2.1152e-10	3.2312e-10	5.83524e-11	7.55129e-12	1.3548e-10	2.41447e-10	2.26287e-10	3.90741e-11	2.67139e-10	2.92163e-10	2.1152e-10	3.23118e-10	5.83509e-11	7.55174e-12	1.35483e-10	2.41449e-10	2.26287e-10	3.90789e-11	2.67138e-10	
+ 16, cv : 1.06821e-11	2.02306e-11	1.00466e-10	3.79062e-11	6.23073e-11	3.16501e-11	6.99252e-11	8.57656e-11	6.41236e-11	3.23187e-11	8.2335e-11	7.45171e-11	1.02053e-10	3.59086e-11	6.63469e-13	3.16521e-11	6.99265e-11	8.57647e-11	6.41216e-11	3.2319e-11	8.23346e-11	7.45178e-11	1.02055e-10	3.59062e-11	6.64691e-13	
+ 17, cv : 1.30964e-11	1.74261e-12	1.80922e-11	1.15522e-11	3.2e-11	3.67295e-12	5.88307e-12	2.16607e-11	1.36162e-112.54057e-11	1.96156e-11	2.18459e-11	3.21039e-11	2.25127e-11	2.05265e-11	3.67195e-12	5.88329e-12	2.16615e-111.36191e-11	2.5405e-11	1.96134e-11	2.18418e-11	3.21034e-11	2.25105e-11	2.05262e-11	
+ 18, cv : 2.9643e-12	3.73857e-12	1.34004e-12	2.70306e-12	1.09355e-11	1.83009e-12	1.00575e-12	4.2002e-12	2.87259e-12	9.72777e-12	3.57536e-12	3.74434e-12	6.22213e-12	5.9962e-12	1.05937e-11	1.8312e-12	1.00886e-12	4.20231e-12	2.87637e-12	9.72855e-12	3.5778e-12	3.74678e-12	6.22102e-12	5.99631e-12	1.05951e-11	
+ 19, cv : 1.04583e-13	3.33067e-13	5.10703e-15	1.07658e-12	2.63101e-12	1.66978e-13	4.22995e-13	1.84297e-14	3.01981e-13	3.2454e-12	2.05169e-13	5.9952e-14	7.55396e-13	1.53699e-12	3.07221e-12	1.66978e-13	4.21996e-13	1.93179e-14	2.97762e-13	3.24707e-12	2.05724e-13	5.68434e-14	7.52509e-13	1.53955e-12	3.07132e-12	
+ 20, cv : 7.1454e-13	2.6068e-13	2.88658e-14	4.09006e-13	7.60059e-13	1.48992e-13	1.74083e-13	1.14797e-13	3.25739e-13	6.35048e-13	1.9551e-13	2.43805e-13	2.6501e-13	6.29496e-14	8.44436e-13	1.48215e-13	1.70974e-13	1.15463e-13	3.27072e-13	6.32383e-13	1.97176e-13	2.49356e-13	2.61902e-13	6.02851e-14	8.42437e-13	
+ 21, cv : 3.53939e-13	2.86327e-13	4.44089e-14	2.83662e-13	1.7697e-13	2.20712e-13	1.45883e-13	1.33227e-14	1.58318e-13	1.78857e-13	7.09433e-14	7.70495e-14	1.53322e-13	7.10543e-15	9.9476e-14	2.20157e-13	1.4877e-13	1.26565e-14	1.5854e-13	1.80522e-13	7.06102e-14	7.43849e-14	1.5421e-13	3.77476e-15	1.02141e-13	

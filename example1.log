@@ -1,0 +1,56 @@
+./example1.out ex.dat 
+
+-- planewave --
+medium density                   [kg/m^3] :            1000
+speed of sound in the medium        [m/s] :            1500
+frequency                            [Hz] :          100000
+sound pressure amplitude             [Pa] :     10+      0I
+x-component of translation vector     [m] :               0
+y-component of translation vector     [m] :               0
+z-component of translation vector     [m] :               0
+rotation parameter theta            [rad] :             0.3
+rotation parameter psi              [rad] :           1e-08
+-- additional information --
+wavelength                            [m] :           0.015
+absolute value of sound intensity [W/m^2] : 3.3333333333333e-05
+x-component of sound intensity    [W/m^2] : 9.850673555378e-06
+y-component of sound intensity    [W/m^2] : 9.850673555378e-14
+z-component of sound intensity    [W/m^2] : 3.184454963752e-05
+
+--- periodicity data ---
+periodicity data file name = periodicity.txt
+periodicity setting        =          1
+lattice constant d1        = (  0.015,      0)
+lattice constant d2        = (      0,  0.015)
+
+--- medium data ---
+medium data file name      = medium.txt
+domain id  1 rho0 [kg/m^3] =     970
+             c0      [m/s] =    1004
+
+--- mesh data ---
+mesh data file name        = sphere_m1.msh
+node number                =      602
+defined element number     =     1200
+
+
+sound pressure and particle velocity at r=( -0.03, 0.01, 0.002 )
+type=0 setting ( 4 point Gauss-Legendre )
+p  = -1.60864515194396e+01 +7.21171164151370e+00 I 
+vx = -2.95881854346144e-06 -4.77748008913537e-07 I 
+vy = -8.75837999315613e-06 -8.48556131494143e-06 I 
+vz = -6.43210173002179e-06 -7.67679566899160e-06 I 
+sound pressure and particle velocity at r=( -0.03, 0.01, 0.002 )
+type=1 setting ( 9 or 7 point Gauss-Legendre )
+p  = -1.61009671749905e+01 +7.23211461139941e+00 I 
+vx = -2.95990303902646e-06 -4.76323832223711e-07 I 
+vy = -8.74218146809557e-06 -8.47036079533403e-06 I 
+vz = -6.41740883899698e-06 -7.66386744321267e-06 I 
+
+Radiation force and torque
+type=0 setting ( 4 point Gauss-Legendre ) 
+F = ( 1.17265981863126e-12,-4.25894012043065e-24, 3.30594943545801e-12)
+N = ( 5.49953393998697e-26,-1.74832751729785e-17, 5.45359856947595e-25), center of rotation ( 0, 0, 0)
+type=1 setting ( 9 or 7 point Gauss-Legendre ) 
+F = ( 1.17329969455238e-12, 3.03164256720905e-21, 3.30585497142178e-12)
+N = (-1.07748892893206e-23,-1.96434215570279e-17, 6.54971941677396e-24), center of rotation ( 0, 0, 0)
