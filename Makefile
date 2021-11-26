@@ -39,7 +39,7 @@ TRGOBJ3=$(filter-out $(OBJDIR)/$(TARGET1).o, $(OBJS1)) $(OBJS2) $(OBJS3) $(patsu
 TRGOBJ4=$(filter-out $(OBJDIR)/$(TARGET1).o, $(OBJS1)) $(OBJS2) $(OBJS3) $(patsubst %.c,%.o,$(TRGSRC4))
 
 
-all : directories $(TARGET1) #$(TARGET2) $(TARGET3) $(TARGET4)
+all : directories $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4)
 
 directories:
 	@mkdir -p $(OBJDIR)
