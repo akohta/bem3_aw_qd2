@@ -1,13 +1,12 @@
-# makefile for Intel C compiler
-CC     =icc
+# makefile for Intel compiler
+CC     =icx
 CFLAGS =-fast -Wall
 LDFLAGS=-lpng -lz
-MPFLAGS=-qopenmp
-MP_LD  =-liomp5
+MPFLAGS=-fiopenmp
 # link mkl lapack library, static linking 
-LDF_MKL=-Wl,--start-group ${MKLROOT}/lib/intel64/libmkl_intel_ilp64.a ${MKLROOT}/lib/intel64/libmkl_intel_thread.a ${MKLROOT}/lib/intel64/libmkl_core.a -Wl,--end-group -lpthread -lm -ldl #mkl lapack library, static linking 
+LDF_MKL =-Wl,--start-group ${MKLROOT}/lib/intel64/libmkl_intel_ilp64.a ${MKLROOT}/lib/intel64/libmkl_intel_thread.a ${MKLROOT}/lib/intel64/libmkl_core.a -Wl,--end-group -liomp5 -lpthread -lm -ldl
 # mkl compile option
-COP_MKL=-DMKL_ILP64 -I${MKLROOT}/include
+COP_MKL =-DMKL_ILP64 -I"${MKLROOT}/include"
 SRCDIR1=d3qd2_src
 SRCDIR2=com_src
 SRCDIR3=qgf2_src
@@ -45,19 +44,19 @@ directories:
 	@mkdir -p $(OBJDIR)
 
 $(TARGET1) : $(TRGOBJ1)  
-	$(CC) -o $@ $^ $(LDF_MKL) $(MP_LD)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDF_MKL) $(LDFLAGS) $(MPFLAGS)
 
 $(TARGET2) : $(TRGOBJ2)  
-	$(CC) -o $@ $^ $(LDF_MKL) $(MP_LD)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDF_MKL) $(LDFLAGS) $(MPFLAGS)
 
 $(TARGET3) : $(TRGOBJ3)  
-	$(CC) -o $@ $^ $(LDF_MKL) $(MP_LD)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDF_MKL) $(LDFLAGS) $(MPFLAGS)
 
 $(TARGET4) : $(TRGOBJ4) 
-	$(CC) $(LDFLAGS) -o $@ $^ $(LDF_MKL) $(MP_LD)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDF_MKL) $(LDFLAGS) $(MPFLAGS)
 
 $(OBJDIR)/%.o : $(SRCDIR1)/%.c
-	$(CC) $(CFLAGS) $(COP_MKL) $(MPFLAGS) -I$(SRCDIR2) -I$(SRCDIR3) -c $< -o $@
+	$(CC) $(CFLAGS) $(COP_MKL) -I$(SRCDIR2) -I$(SRCDIR3) -c $< -o $@ $(MPFLAGS)
 
 $(OBJDIR)/%.o : $(SRCDIR2)/%.c
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -66,10 +65,10 @@ $(OBJDIR)/%.o : $(SRCDIR3)/%.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 .c.o :
-	$(CC) $(CFLAGS) $(COP_MKL) $(MPFLAGS) -I$(SRCDIR1) -I$(SRCDIR2) -I$(SRCDIR3) -c $<
+	$(CC) $(CFLAGS) $(COP_MKL) -I$(SRCDIR1) -I$(SRCDIR2) -I$(SRCDIR3) -c $< $(MPFLAGS)
 
 clean:
-	@rm -rf $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET3) $(OBJDIR) ./*.o
+	@rm -rf $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4) $(OBJDIR) ./*.o
 
 $(OBJS1) : $(HEAD1) $(HEAD2) $(HEAD3) 
 $(OBJS2) : $(HEAD2) 
